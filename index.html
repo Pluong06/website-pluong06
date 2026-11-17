@@ -112,7 +112,7 @@
       <div><b>Nothing leaves your browser</b><span>Settings and data are saved with Chrome's storage on your own device.</span></div>
       <div><b>No tracking of any kind</b><span>No analytics, no ads, no tracking pixels, no crash reporting.</span></div>
       <div><b>No servers of our own</b><span>We don't run a backend, so there is nowhere for your data to go.</span></div>
-      <div><b>One exception: Pro licenses</b><span>If you buy Pro, your license key is checked with Lemon Squeezy, our payment provider. That's the only data we ever send out.</span></div>
+      <div><b>One exception: Pro licenses</b><span>If you buy Pro, your license key is checked with Paddle, our payment provider. That's the only data we ever send out.</span></div>
     </div>
   </section>
 
@@ -143,7 +143,7 @@
     <p>Only <b>text</b> is stored. Images and files you copy are never recorded. Each item is limited to 20,000 characters.</p>
 
     <h3>The only network connection</h3>
-    <p><b>The free version makes no network connections at all.</b> If you buy Pro, the extension contacts <code>api.lemonsqueezy.com</code> to activate your key, and about once a day to check that your subscription is still active. That request contains your <b>license key</b> and a <b>device label</b> such as <i>"Clipboard Manager on Windows"</i>. It never includes any clipboard content.</p>
+    <p><b>The free version makes no network connections at all.</b> If you buy Pro, the extension contacts Paddle, our payment provider, to activate your key, and about once a day to check that your subscription is still active. That request contains your <b>license key</b> and a <b>device label</b> such as <i>"Clipboard Manager on Windows"</i>. It never includes any clipboard content.</p>
 
     <h3>Permissions and why they are needed</h3>
     <ul>
@@ -183,7 +183,7 @@
         <thead><tr><th>Where</th><th>What</th></tr></thead>
         <tbody>
           <tr><td><code>chrome.storage.sync</code></td><td>Your preferences: cursor, size, smoothing, opacity, trail, click effect, sound pack, volume, and websites where you switched it off. Chrome syncs these between your own signed-in devices. We cannot read any of it.</td></tr>
-          <tr><td><code>chrome.storage.local</code></td><td>License state: the license key, the device ID issued by Lemon Squeezy, and when the license was last checked.</td></tr>
+          <tr><td><code>chrome.storage.local</code></td><td>License state: the license key, the device ID used for license activation, and when the license was last checked.</td></tr>
         </tbody>
       </table>
     </div>
@@ -205,7 +205,7 @@
     </ul>
 
     <h3>The only network connection</h3>
-    <p>The extension contacts <code>api.lemonsqueezy.com</code> only when you press <b>Activate</b> on a license, or to re-check a Pro license every 12 hours. It sends the license key and device ID and receives whether the license is still valid. <b>Free users never trigger any network connection.</b></p>
+    <p>The extension contacts Paddle, our payment provider, only when you press <b>Activate</b> on a license, or to re-check a Pro license every 12 hours. It sends the license key and device ID and receives whether the license is still valid. <b>Free users never trigger any network connection.</b></p>
 
     <h3>Deleting your data</h3>
     <p>Uninstalling the extension erases everything above. To free a license slot first, open the extension → <b>Pro</b> tab → <b>Remove license from this device</b>.</p>
@@ -237,8 +237,8 @@
     </div>
     <p>You can delete all of it at any time by removing the extension or clearing its data in Chrome.</p>
 
-    <h3>Data sent to Lemon Squeezy</h3>
-    <p>When you activate, re-check or deactivate a Pro license, the extension sends your license key and an activation ID to <code>api.lemonsqueezy.com</code>. It repeats this check about twice a day so expired subscriptions are detected. We never see your card details.</p>
+    <h3>Data sent to Paddle</h3>
+    <p>When you activate, re-check or deactivate a Pro license, the extension sends your license key and an activation ID to Paddle, our payment provider. It repeats this check about twice a day so expired subscriptions are detected. We never see your card details.</p>
 
     <h3>Website content the extension reads</h3>
     <p>On supported marketplace product pages, the extension reads the page you are viewing (title, price, rating, specifications, image and video links) only to perform the action you request: copying a link, inspecting images, downloading media, or adding the product to your comparison list. Media files are fetched directly from the marketplace's own servers. Nothing is sent to us or to any third party.</p>
@@ -254,7 +254,7 @@
           <tr><td><code>tabs</code>, <code>scripting</code>, <code>activeTab</code></td><td>Find open product tabs for comparison and copy the current tab's link</td></tr>
           <tr><td><code>alarms</code></td><td>Periodically re-check subscription status</td></tr>
           <tr><td><code>offscreen</code></td><td>Build ZIP files in the background</td></tr>
-          <tr><td><code>api.lemonsqueezy.com</code></td><td>Activate and verify your Pro license</td></tr>
+          <tr><td>Paddle (payment provider)</td><td>Activate and verify your Pro license</td></tr>
         </tbody>
       </table>
     </div>
@@ -264,7 +264,7 @@
   <section class="policy prose narrow" id="privacy-common">
     <h2>For all extensions</h2>
     <h3>Payments</h3>
-    <p>Lemon Squeezy is our payment provider and merchant of record. Payments, billing details and receipts are handled under <a href="https://www.lemonsqueezy.com/privacy" target="_blank" rel="noopener">Lemon Squeezy's privacy policy</a>. We never see or store your card number.</p>
+    <p>Paddle is our payment provider and merchant of record. Payments, billing details and receipts are handled under <a href="https://www.paddle.com/legal/privacy" target="_blank" rel="noopener">Paddle's privacy policy</a>. We never see or store your card number.</p>
     <h3>Children</h3>
     <p>Our extensions are not directed at children under 13 and collect no identifying data from anyone.</p>
     <h3>Chrome Web Store Limited Use</h3>
