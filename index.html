@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>pluong06</title>
+<meta name="description" content="Small, private Chrome extensions: Clipboard Manager, Cursor Studio and E-Com & Affiliate Assistant. No tracking, no ads, your data stays in your browser." />
+<link rel="icon" href="assets/icons/clipboard-manager.png" />
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="#top">pluong06</a>
+    <nav class="nav">
+      <a href="#products">Products</a>
+      <a href="#privacy">Privacy</a>
+      <a href="mailto:luongshinichi@gmail.com">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="top">
+
+  <section class="hero">
+    <h1>Small Chrome extensions<br />that respect your privacy</h1>
+    <p>Three focused tools for everyday browsing and online selling. They run entirely in your browser, with no tracking, no ads and no servers of our own.</p>
+    <div class="pills">
+      <span class="pill">No analytics</span>
+      <span class="pill">No ads</span>
+      <span class="pill">Data stays on your device</span>
+      <span class="pill">Free plan, no sign-up</span>
+    </div>
+  </section>
+
+  <!-- ================= PRODUCTS ================= -->
+  <section id="products" class="grid" aria-label="Products">
+
+    <article class="card" id="clipboard-manager">
+      <div class="card-top">
+        <img src="assets/icons/clipboard-manager.png" alt="" width="56" height="56" />
+        <div>
+          <h2>Clipboard Manager</h2>
+          <p class="tag">Clipboard history · v2.0.3</p>
+        </div>
+      </div>
+      <p class="lead">Keeps every piece of text you copy in the browser. Press <b>Ctrl&nbsp;+&nbsp;Shift&nbsp;+&nbsp;V</b> and copy it again in one click.</p>
+      <ul>
+        <li>Auto-detects links, emails and phone numbers</li>
+        <li>Paste straight into the page, undo on delete</li>
+        <li>Search, favorites and folders (Pro)</li>
+        <li>Export to CSV, TXT, Markdown or JSON (Pro)</li>
+        <li>Dark, light and auto themes</li>
+      </ul>
+      <div class="price">
+        <strong>Free: last 50 items</strong>
+        Pro: $0.99/week · $3.99/month · $22.99/year
+      </div>
+    </article>
+
+    <article class="card" id="cursor-studio">
+      <div class="card-top">
+        <img src="assets/icons/cursor-studio.png" alt="" width="56" height="56" />
+        <div>
+          <h2>Cursor Studio</h2>
+          <p class="tag">Animated custom cursor · v2.0.1</p>
+        </div>
+      </div>
+      <p class="lead">Replace the grey arrow on every website with a cursor you actually chose, plus trails, click effects and sounds.</p>
+      <ul>
+        <li>78 cursors: vector SVGs and animated emoji</li>
+        <li>11 trail effects and 7 click effects</li>
+        <li>11 sound packs, synthesised live (0 KB)</li>
+        <li>Returns the normal caret in text fields</li>
+        <li>Turn it off per website in one click</li>
+      </ul>
+      <div class="price">
+        <strong>Free: 12 cursors, 2 trails, 2 click effects, 2 sounds</strong>
+        Pro: $3.99/month · $16/year · 3 devices per key
+      </div>
+    </article>
+
+    <article class="card" id="ecom-affiliate-assistant">
+      <div class="card-top">
+        <img src="assets/icons/ecom-affiliate-assistant.png" alt="" width="56" height="56" />
+        <div>
+          <h2>E-Com &amp; Affiliate Assistant</h2>
+          <p class="tag">For sellers &amp; affiliates · v1.1.0</p>
+        </div>
+      </div>
+      <p class="lead">Tools for Amazon, Shopee, AliExpress, eBay and Etsy product pages, right where you are browsing.</p>
+      <ul>
+        <li>1-click clean affiliate links with your ID</li>
+        <li>Inspect resolution, size and format of every image</li>
+        <li>Download original images and videos as one ZIP (Pro)</li>
+        <li>Multi-tab product comparison, export to Excel/CSV (Pro)</li>
+      </ul>
+      <div class="price">
+        <strong>Free: affiliate links + image inspector</strong>
+        Pro: $0.99/week · $3.99/month · $20/year · $39.99 lifetime
+      </div>
+    </article>
+
+  </section>
+
+  <!-- ================= PRIVACY ================= -->
+  <section class="section" id="privacy">
+    <h2>Privacy</h2>
+    <p>The same rules apply to every extension we make. Product-specific details follow below.</p>
+    <div class="promise">
+      <div><b>Nothing leaves your browser</b><span>Settings and data are saved with Chrome's storage on your own device.</span></div>
+      <div><b>No tracking of any kind</b><span>No analytics, no ads, no tracking pixels, no crash reporting.</span></div>
+      <div><b>No servers of our own</b><span>We don't run a backend, so there is nowhere for your data to go.</span></div>
+      <div><b>One exception: Pro licenses</b><span>If you buy Pro, your license key is checked with Lemon Squeezy, our payment provider. That's the only data we ever send out.</span></div>
+    </div>
+  </section>
+
+  <!-- Clipboard Manager privacy -->
+  <section class="policy prose narrow" id="privacy-clipboard-manager">
+    <div class="policy-head">
+      <img src="assets/icons/clipboard-manager.png" alt="" width="40" height="40" />
+      <div>
+        <h2>Clipboard Manager — Privacy Policy</h2>
+        <p class="meta">Last updated: September 11, 2026</p>
+      </div>
+    </div>
+
+    <p>Clipboard Manager <b>does not collect, send or sell</b> your data. Your whole clipboard history is stored locally in your browser, on your own computer. No account, no server of ours, no sync.</p>
+
+    <h3>Data the extension stores</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Data</th><th>Where</th><th>Why</th></tr></thead>
+        <tbody>
+          <tr><td>Text you copy in the browser</td><td><code>chrome.storage.local</code> (your device)</td><td>To show your history again</td></tr>
+          <tr><td>Folder names, favorites</td><td><code>chrome.storage.local</code></td><td>To organize items</td></tr>
+          <tr><td>Settings (theme, auto-delete days…)</td><td><code>chrome.storage.local</code></td><td>To remember your choices</td></tr>
+          <tr><td>Pro license key (if any)</td><td><code>chrome.storage.local</code></td><td>To unlock Pro features</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Only <b>text</b> is stored. Images and files you copy are never recorded. Each item is limited to 20,000 characters.</p>
+
+    <h3>The only network connection</h3>
+    <p><b>The free version makes no network connections at all.</b> If you buy Pro, the extension contacts <code>api.lemonsqueezy.com</code> to activate your key, and about once a day to check that your subscription is still active. That request contains your <b>license key</b> and a <b>device label</b> such as <i>"Clipboard Manager on Windows"</i>. It never includes any clipboard content.</p>
+
+    <h3>Permissions and why they are needed</h3>
+    <ul>
+      <li><b><code>storage</code>, <code>unlimitedStorage</code></b> — store your history on your device. History can reach 10,000 items, which exceeds the default 5 MB quota.</li>
+      <li><b><code>clipboardWrite</code></b> — copy an item again when you click it.</li>
+      <li><b><code>clipboardRead</code></b> — used only when <b>you press</b> the "Get current clipboard" button. The clipboard is never read in the background or on a schedule.</li>
+      <li><b><code>alarms</code></b> — one hourly alarm that deletes old items according to your auto-delete setting, and re-checks a Pro subscription.</li>
+      <li><b><code>downloads</code></b> — save a file when you press Export.</li>
+      <li><b><code>contextMenus</code></b> — add items to the right-click menu.</li>
+      <li><b>Access to all websites</b> — a copy can happen on any page, so the content script must be present on every page to notice it and to paste back into the page you are on. It <b>does not</b> read page content and sends nothing anywhere.</li>
+    </ul>
+
+    <h3>You control your data</h3>
+    <ul>
+      <li><b>Pause</b> capturing in Settings. We recommend doing this before copying passwords.</li>
+      <li><b>Delete</b> single items with ✕, or everything with "Clear all".</li>
+      <li><b>Export</b> everything to CSV, text, Markdown or JSON at any time.</li>
+      <li><b>Uninstall</b> and Chrome deletes all of the extension's data with it.</li>
+    </ul>
+  </section>
+
+  <!-- Cursor Studio privacy -->
+  <section class="policy prose narrow" id="privacy-cursor-studio">
+    <div class="policy-head">
+      <img src="assets/icons/cursor-studio.png" alt="" width="40" height="40" />
+      <div>
+        <h2>Cursor Studio — Privacy Policy</h2>
+        <p class="meta">Last updated: August 23, 2026</p>
+      </div>
+    </div>
+
+    <p>Cursor Studio <b>does not collect, store or sell</b> any of your personal data. It has no server of its own, no analytics, no ads and no tracking pixels.</p>
+
+    <h3>What the extension stores</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Where</th><th>What</th></tr></thead>
+        <tbody>
+          <tr><td><code>chrome.storage.sync</code></td><td>Your preferences: cursor, size, smoothing, opacity, trail, click effect, sound pack, volume, and websites where you switched it off. Chrome syncs these between your own signed-in devices. We cannot read any of it.</td></tr>
+          <tr><td><code>chrome.storage.local</code></td><td>License state: the license key, the device ID issued by Lemon Squeezy, and when the license was last checked.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>What the extension never touches</h3>
+    <ul>
+      <li>Your browsing history or the URLs of pages you open.</li>
+      <li>Page content, text you type, passwords, forms or cookies.</li>
+      <li>Mouse coordinates are used only momentarily to draw the cursor — never stored, never transmitted.</li>
+      <li>Contacts, location, camera, microphone or files on your computer.</li>
+    </ul>
+
+    <h3>Permissions and why they are needed</h3>
+    <ul>
+      <li><b>Access to all websites</b> — lets the extension draw its cursor layer over the page you are viewing. It only reads mouse coordinates and sends nothing anywhere.</li>
+      <li><b><code>storage</code></b> — remembers your cursor and settings.</li>
+      <li><b><code>activeTab</code></b> — used only by the popup to offer "Turn off on this site". Only the hostname is kept, locally.</li>
+      <li><b><code>alarms</code></b> — re-checks a Pro license every 12 hours. Does nothing for free users.</li>
+    </ul>
+
+    <h3>The only network connection</h3>
+    <p>The extension contacts <code>api.lemonsqueezy.com</code> only when you press <b>Activate</b> on a license, or to re-check a Pro license every 12 hours. It sends the license key and device ID and receives whether the license is still valid. <b>Free users never trigger any network connection.</b></p>
+
+    <h3>Deleting your data</h3>
+    <p>Uninstalling the extension erases everything above. To free a license slot first, open the extension → <b>Pro</b> tab → <b>Remove license from this device</b>.</p>
+  </section>
+
+  <!-- E-Com privacy -->
+  <section class="policy prose narrow" id="privacy-ecom-affiliate-assistant">
+    <div class="policy-head">
+      <img src="assets/icons/ecom-affiliate-assistant.png" alt="" width="40" height="40" />
+      <div>
+        <h2>E-Com &amp; Affiliate Assistant — Privacy Policy</h2>
+        <p class="meta">Effective date: November 16, 2026</p>
+      </div>
+    </div>
+
+    <p>We do not collect, sell or share your browsing history or personal data. We do not use analytics, advertising or tracking tools, and we do not run our own servers.</p>
+
+    <h3>Data stored on your device</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Data</th><th>Purpose</th></tr></thead>
+        <tbody>
+          <tr><td>Affiliate IDs and deeplink templates you enter</td><td>To build your affiliate links</td></tr>
+          <tr><td>Products you add to the comparison list (title, price, rating, sold count, specs, image link, page URL)</td><td>To show the comparison table and export it</td></tr>
+          <tr><td>License key, plan name, status and expiry date</td><td>To unlock Pro features</td></tr>
+          <tr><td>Interface preferences (e.g. floating bar minimized)</td><td>To remember your layout</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>You can delete all of it at any time by removing the extension or clearing its data in Chrome.</p>
+
+    <h3>Data sent to Lemon Squeezy</h3>
+    <p>When you activate, re-check or deactivate a Pro license, the extension sends your license key and an activation ID to <code>api.lemonsqueezy.com</code>. It repeats this check about twice a day so expired subscriptions are detected. We never see your card details.</p>
+
+    <h3>Website content the extension reads</h3>
+    <p>On supported marketplace product pages, the extension reads the page you are viewing (title, price, rating, specifications, image and video links) only to perform the action you request: copying a link, inspecting images, downloading media, or adding the product to your comparison list. Media files are fetched directly from the marketplace's own servers. Nothing is sent to us or to any third party.</p>
+
+    <h3>Permissions and why they are needed</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Permission</th><th>Why</th></tr></thead>
+        <tbody>
+          <tr><td>Amazon, Shopee, AliExpress, eBay, Etsy and their image servers</td><td>Show the floating bar, read product details, fetch images/videos you choose to inspect or download</td></tr>
+          <tr><td><code>storage</code></td><td>Save settings, comparison list and license locally</td></tr>
+          <tr><td><code>downloads</code></td><td>Save images, videos, ZIP files and exports you request</td></tr>
+          <tr><td><code>tabs</code>, <code>scripting</code>, <code>activeTab</code></td><td>Find open product tabs for comparison and copy the current tab's link</td></tr>
+          <tr><td><code>alarms</code></td><td>Periodically re-check subscription status</td></tr>
+          <tr><td><code>offscreen</code></td><td>Build ZIP files in the background</td></tr>
+          <tr><td><code>api.lemonsqueezy.com</code></td><td>Activate and verify your Pro license</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Common terms -->
+  <section class="policy prose narrow" id="privacy-common">
+    <h2>For all extensions</h2>
+    <h3>Payments</h3>
+    <p>Lemon Squeezy is our payment provider and merchant of record. Payments, billing details and receipts are handled under <a href="https://www.lemonsqueezy.com/privacy" target="_blank" rel="noopener">Lemon Squeezy's privacy policy</a>. We never see or store your card number.</p>
+    <h3>Children</h3>
+    <p>Our extensions are not directed at children under 13 and collect no identifying data from anyone.</p>
+    <h3>Chrome Web Store Limited Use</h3>
+    <p>The use of information received from Google APIs adheres to the Chrome Web Store User Data Policy, including the Limited Use requirements. We do not transfer user data to third parties except for license verification as described above, do not use it for advertising, and do not use it to determine creditworthiness.</p>
+    <h3>Changes</h3>
+    <p>If a policy changes, we will update this page and the date shown for that extension.</p>
+    <h3>Contact</h3>
+    <p><a href="mailto:luongshinichi@gmail.com">luongshinichi@gmail.com</a></p>
+  </section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <span>© 2026 pluong06</span>
+    <span><a href="#privacy">Privacy</a> · <a href="mailto:luongshinichi@gmail.com">luongshinichi@gmail.com</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
